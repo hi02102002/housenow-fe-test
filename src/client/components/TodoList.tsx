@@ -128,7 +128,7 @@ export const TodoList = ({ status }: Props) => {
                   {todo.body}
                 </label>
                 <button
-                  className="ml-auto flex h-8 w-8 items-center justify-center rounded-[10px] text-gray-700 hover:bg-gray-50 focus:bg-gray-100 disabled:pointer-events-none disabled:bg-gray-400 disabled:text-gray-400"
+                  className="ml-auto flex h-8 w-8 items-center justify-center rounded-[10px] text-gray-700"
                   onClick={() => {
                     deleteTodo({
                       id: todo.id,

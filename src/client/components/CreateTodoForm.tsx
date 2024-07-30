@@ -75,7 +75,7 @@ export const CreateTodoForm = () => {
         type="submit"
         disabled={isCreatingTodo || isEmptyTodoBody}
         onClick={handleCreateTodo}
-        className="flex h-9 items-center justify-center rounded-full bg-gray-700 px-5 py-2 text-sm font-bold text-white hover:bg-[#434343] focus:bg-[#666666] active:bg-[#1A1A1A] disabled:pointer-events-none disabled:bg-gray-300"
+        className="flex h-9 items-center justify-center rounded-full bg-gray-700 px-5 py-2 text-sm font-bold text-white"
       >
         Add
       </button>
