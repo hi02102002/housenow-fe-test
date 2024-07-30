@@ -42,7 +42,7 @@ const Index = () => {
               <Tabs.Trigger
                 key={tab}
                 value={tab}
-                className="cursor-pointer rounded-full border border-gray-200 px-6 py-3 text-sm font-bold capitalize text-gray-700 transition-all data-[state=active]:bg-gray-700 data-[state=active]:text-white"
+                className="h-11 cursor-pointer rounded-full border border-gray-200 px-6 py-3 text-sm font-bold capitalize text-gray-700 transition-all data-[state=active]:bg-gray-700 data-[state=active]:text-white"
               >
                 {tab}
               </Tabs.Trigger>
